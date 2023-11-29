@@ -3,100 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Azhar Hussain - Java Developer</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
         }
 
         header {
             background-color: #333;
             color: #fff;
-            text-align: center;
-            padding: 1em 0;
+            padding: 1em;
+            border-bottom: 2px solid #555;
         }
 
-        section {
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             max-width: 800px;
             margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2, h3 {
-            color: #333;
         }
 
         img {
-            max-width: 100%;
-            height: auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            transition: transform 0.3s ease;
         }
 
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+        img:hover {
+            transform: scale(1.1);
         }
 
-        .project {
-            width: 48%;
-            margin-bottom: 20px;
+        .contact-info {
+            font-size: 16px;
+            text-align: left;
         }
 
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #333;
-            color: #fff;
+        .about-me {
+            max-width: 600px;
+            text-align: left;
         }
+
+        .about-me p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+
+        /* Rest of the styles remain unchanged */
+
     </style>
 </head>
 <body>
 
     <header>
         <h1>Azhar Hussain</h1>
-        <p>Java Developer</p>
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            Hello! I'm a passionate web developer with experience in creating modern and responsive websites.
-        </p>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of Project 2.</p>
-            </div>
-            <!-- Add more projects as needed -->
+    <div class="profile">
+        <div class="about-me">
+            <p>
+                I'm a passionate Java Developer with a proven track record in software development and design.
+                My robust analytical abilities enable me to tackle complex challenges, both collaboratively within a team and independently when necessary.
+                I excel in interpersonal interactions, effortlessly engaging with individuals at all organizational levels, fostering effective communication and cooperation.
+            </p>
         </div>
-    </section>
+        <img src="me.jpg" alt="Azhar Hussain">
+    </div>
+
+    <div class="contact-info">
+        <p>Email: azharhussainshahani78@gmail.com</p>
+        <p>Phone: +92 3083021398</p>
+        <p>Location: Karachi, Pakistan</p>
+        <p>LinkedIn: <a href="linkedin.com/in/azhar-hussain-1740a3144">linkedin.com/in/azhar-hussain-1740a3144</a></p>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <p>Java Core, Servlet, Java Server Page, JDBC</p>
+        <p>Spring Framework, Spring ORM, Spring Boot</p>
+        <p>Hibernate, Html, CSS, Javascript, Angular, React.js</p>
+        <p>MySQL Database, IBM DB2, Git, SVN, GitHub, Postman</p>
+    </div>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>Sapphire Asset Management</h3>
+            <p>Worked on a project for Sapphire Consulting Services designed with Angular and implemented a new system for managing and processing asset management system tasks with backend Spring Boot.</p>
+        </div>
+        <div>
+            <h3>Motor Vehicle Registration (MVR)</h3>
+            <p>Worked on a project for MVR designed application with frontend framework and with backend Spring Boot.</p>
+        </div>
+        <div>
+            <h3>Pakistan Reinsurance</h3>
+            <p>Worked on a Project named Pakistan Reinsurance that involved creating a new system that manages and processes reinsurance claims using Spring Boot, Hibernate, Java Spring Jpa, and DB2.</p>
+        </div>
+        <div>
+            <h3>Online Food Order System (FYP)</h3>
+            <p>This Project is an Online Food Order System that provides an effective and efficient way of ordering food and table reservation and table scanning order. The application works on the Android platform, and the main focus of this project is to let users get help in the fastest and convenient way. Frontend Angular (Form Admin), Spring Boot Backend, Android Java (For Users).</p>
+        </div>
+    </div>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 Azhar Hussain</p>
     </footer>
 
 </body>
