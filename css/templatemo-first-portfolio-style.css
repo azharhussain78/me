@@ -135,8 +135,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 1120px;
+  padding-bottom: 1000px;
 }
 
 b,
@@ -156,8 +156,8 @@ strong {
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
-  width: 160px;
-  height: 160px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -468,7 +468,7 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero {
-  background: var(--secondary-color);
+  /* background-image: url('../images/developer.jpg'); */
   position: relative;
   overflow: hidden;
   padding-top: 330px;
@@ -1185,3 +1185,15 @@ strong {
   }
 }
 
+
+
+ /* Define the animation */
+ @keyframes fadeIn {
+  from { opacity: 50%; }
+  to { opacity: 1; }
+}
+
+/* Apply the animation to the element */
+.fade-in {
+  animation: fadeIn 2.5s ease-in-out;
+}
